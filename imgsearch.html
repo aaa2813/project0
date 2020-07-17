@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- NOTE: This page's functionality is COMPLETE -->
     <head>
+        <link rel="stylesheet" href="css/main.css">
         <title>Google Image Search</title>
     </head>
+
     <body>
-        Image Search form
+        <!-- Navigation links to other sites -->
+        <div class="upper-nav-bar">
+            <a href="index.html">Search</a>
+            <a href="advanced-search.html">Advanced Search</a>
+        </div>
+
+        <!-- Image search functionality -->
+        <div class="basic-search">
+            <h1>Image Search</h1>
+            <form action="https://google.com/search">
+                <input class="search-box" type="text" name="q"><br>
+                <input type="hidden" id="img" name="tbm" value="isch">
+
+                <input type="submit" value="Google Search" style="margin-top:10px;">
+            </form>
+        </div>
     </body>
 </html>
