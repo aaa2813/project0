@@ -15,7 +15,12 @@
 /* Styling for div containing search box and button. */
 .basic-search {
     text-align: center;
-    padding-top: 45vh; // Uses 45% of viewport height
+    padding-top: 40vh; // Uses 45% of viewport height
+}
+
+/
+.advanced-search {
+    padding-top: 40px;
 }
 
 /* Styling for search box input. */
