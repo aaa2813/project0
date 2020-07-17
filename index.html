@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="css/main.css">
         <title>Search</title>
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <!-- Navigation links to other sites -->
+        <div class="upper-nav-bar">
+            <a href="imgsearch.html">Image Search</a>
+            <a href="advanced-search.html">Advanced Search</a>
+        </div>
+
+        <!-- Main search functionality -->
+        <div class="basic-search">
+            <form action="https://google.com/search">
+                <input class="search-box" type="text" name="q"><br>
+                <!-- Sample URL text after google.com:
+                hl=en&sxsrf=ALeKk00oADsF3XyNqeTT10d5je_hC4HZKA%3A1595009367135&source=hp&ei=V-kRX5_eBLyeytMPkcOywAw&iflsig=AINFCbYAAAAAXxH3Z1eVMK3TGDQouimkh3YZ59Hb8Z2I&q=django-->
+
+                <input type="submit" value="Google Search" style="margin-top:10px;">
+                <input type="submit" value="I'm Feeling Lucky" style="margin-top:10px;">
+                <!-- Im feeling lucky potential URL text: {google:baseURL}search?q=%s&btnI-->
+            </form>
+        </div>
+
     </body>
 </html>
