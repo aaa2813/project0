@@ -1,11 +1,19 @@
 /* Main stylesheet for Project 0. */
 
-// Styling for h1 page headers.
+// Styling for h1 page titles.
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 40px;
     color: #4285f4;
+}
+
+//Styling for h2, used in the Advanced Search title
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #d93025;
 }
 
 // Styling for upper navigation area with other page links.
@@ -28,11 +36,21 @@ h1 {
     padding-top: 40vh; // Uses 45% of viewport height
 }
 
-// Styling for table cells in advanced search div.
-.advanced-search td {
+// Styling for table in advanced search div.
+.advanced-search {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    padding: 10px;
+    table {
+        margin-top: 50px;
+        margin-left: 20px;
+        th {
+            font-weight: 400;
+            font-size: 16px;
+        }
+        td {
+            font-size: 13px;
+            padding: 10px;
+        }
+    }
 }
 
 // Styling for monospace text in advanced search.
