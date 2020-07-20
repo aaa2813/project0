@@ -1,5 +1,13 @@
 /* Main stylesheet for Project 0. */
 
+// Styling for h1 page headers.
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #4285f4;
+}
+
 // Styling for upper navigation area with other page links.
 .upper-nav-bar {
     padding-top: 10px;
@@ -20,9 +28,40 @@
     padding-top: 40vh; // Uses 45% of viewport height
 }
 
-// Styling for search box input for Search and Image Search pages.
-.search-box {
-    width: 200px;
+// Styling for table cells in advanced search div.
+.advanced-search td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+
+// Styling for monospace text in advanced search.
+.monospace {
+    font-family: monospace;
+}
+
+// Styling for title search boxes
+.title-search-box {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 300px;
+}
+
+// Styling for search boxes on the Advanced Search page.
+.adv-search-box {
+    border: 1px solid;
+    width: auto;
+}
+
+// Styling for regular search buttons.
+.search-button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    padding: 10px;
+    margin: 5px;
 }
 
 // Styling for Advanced Search button.
