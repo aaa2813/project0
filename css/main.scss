@@ -1,7 +1,9 @@
 /* Main stylesheet for Project 0. */
 
-/* Styling for upper navigation area with other page links. */
+// Styling for upper navigation area with other page links.
 .upper-nav-bar {
+    padding-top: 10px;
+    padding-right: 10px;
     a {
         text-decoration: none;
         font-family: sans-serif;
@@ -12,19 +14,23 @@
     float: right;
 }
 
-/* Styling for div containing search box and button. */
+// Styling for div containing search box and button.
 .basic-search {
     text-align: center;
     padding-top: 40vh; // Uses 45% of viewport height
 }
 
-/
-.advanced-search {
-    padding-top: 40px;
-}
-
-/* Styling for search box input. */
+// Styling for search box input for Search and Image Search pages.
 .search-box {
     width: 200px;
-    border-radius: 3px;
+}
+
+// Styling for Advanced Search button.
+.adv-search-button {
+    border: 1px solid #3079ed;
+    background-color: #4d90fe;
+    color: white;
+    margin-top: 30px;
+    margin-left: 450px;
+    padding: 8px;
 }

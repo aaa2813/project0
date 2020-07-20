@@ -1,6 +1,7 @@
 /* Main stylesheet for Project 0. */
-/* Styling for upper navigation area with other page links. */
 .upper-nav-bar {
+  padding-top: 10px;
+  padding-right: 10px;
   float: right;
 }
 .upper-nav-bar a {
@@ -11,16 +12,22 @@
   padding-right: 5px;
 }
 
-/* Styling for div containing search box and button. */
 .basic-search {
   text-align: center;
   padding-top: 40vh;
 }
 
-/* Styling for search box input. */
 .search-box {
   width: 200px;
-  border-radius: 3px;
+}
+
+.adv-search-button {
+  border: 1px solid #3079ed;
+  background-color: #4d90fe;
+  color: white;
+  margin-top: 30px;
+  margin-left: 450px;
+  padding: 8px;
 }
 
 /*# sourceMappingURL=main.css.map */
